@@ -1,0 +1,45 @@
+# US broadband network
+D 0
+
+# Cities
+N 0  name:"New York, NY" 			pop:8175133 		
+#
+#
+# intentional tab character instead of blank
+N	1  name:"Los Angeles, CA" 	pop:3792621 		
+N 2	name:"Chicago, IL" 			pop:2695598 		
+N 3  pop:2099451 		
+N 4  name:"Philadelphia, PA"
+N 5  name:"Phoenix, AR" 			pop:1445632 		
+N 6  name:"San Antonio, TX" 	pop:1327407 
+N 7  name:"San Diego, CA" 		pop:1307402 
+N 8  name:"Dallas, TX" 				pop:1197816 
+N 9  name:"San Jose, CA" 			pop:945942 
+N 10 name:"Jacksonville, FL" 	pop:821784 
+N 11	name:"Indianapolis, IN"  pop:820445
+
+
+# the following 3 lines contain the original data
+#N 3  name:"Houston, TX" 			pop:2099451 		
+#N 4  name:"Philadelphia, PA"  pop:1526006 		
+
+
+
+# Links
+E	0	2 	cap:100 dist:1264
+E 0 4   cap:100 dist:152
+E 1 5   cap:100 dist:432
+E 1 7   cap:100 dist:192
+E 1 9   cap:100 dist:544
+E 2 9   cap:100 dist:3464
+E 2 11  cap:100 dist:296
+E 3 6   cap:100 dist:320
+E 3 8   cap:100 dist:384
+E 3 10  cap:100 dist:1392
+E 4 10  cap:100 dist:1360
+E 4 11  cap:100 dist:1032
+E 5 7   cap:100 dist:568
+E 5 8   cap:100 dist:1704
+E 6 7   cap:100 dist:2040
+E 6 8   cap:100 dist:440
+E 8 11  cap:100 dist:1440

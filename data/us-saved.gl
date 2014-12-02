@@ -1,0 +1,30 @@
+D 0
+N 0 	name:"New York, NY"	pop:8175133
+N 1 	name:"Los Angeles, CA"	pop:3792621
+N 2 	name:"Chicago, IL"	pop:2695598
+N 3 	pop:2099451
+N 4 	name:"Philadelphia, PA"
+N 5 	name:"Phoenix, AR"	pop:1445632
+N 6 	name:"San Antonio, TX"	pop:1327407
+N 7 	name:"San Diego, CA"	pop:1307402
+N 8 	name:"Dallas, TX"	pop:1197816
+N 9 	name:"San Jose, CA"	pop:945942
+N 10 	name:"Jacksonville, FL"	pop:821784
+N 11 	name:"Indianapolis, IN"	pop:820445
+E 0 2 	cap:100.000000	dist:1264.000000	delay:0.006320
+E 0 4 	cap:100.000000	dist:152.000000	delay:0.000760
+E 1 5 	cap:100.000000	dist:432.000000	delay:0.002160
+E 1 7 	cap:100.000000	dist:192.000000	delay:0.000960
+E 1 9 	cap:100.000000	dist:544.000000	delay:0.002720
+E 2 9 	cap:100.000000	dist:3464.000000	delay:0.017320
+E 2 11 	cap:100.000000	dist:296.000000	delay:0.001480
+E 3 6 	cap:100.000000	dist:320.000000	delay:0.001600
+E 3 8 	cap:100.000000	dist:384.000000	delay:0.001920
+E 3 10 	cap:100.000000	dist:1392.000000	delay:0.006960
+E 4 10 	cap:100.000000	dist:1360.000000	delay:0.006800
+E 4 11 	cap:100.000000	dist:1032.000000	delay:0.005160
+E 5 7 	cap:100.000000	dist:568.000000	delay:0.002840
+E 5 8 	cap:100.000000	dist:1704.000000	delay:0.008520
+E 6 7 	cap:100.000000	dist:2040.000000	delay:0.010200
+E 6 8 	cap:100.000000	dist:440.000000	delay:0.002200
+E 8 11 	cap:100.000000	dist:1440.000000	delay:0.007200
